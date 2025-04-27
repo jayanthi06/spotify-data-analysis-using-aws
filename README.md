@@ -24,12 +24,6 @@ It leverages AWS services for data transformation and visualization, following a
 
 ---
 
-## 🧱 Architecture Diagram
-
-```markdown
-![Spotify AWS Architecture](architecture.png)
-```
-
 Flow:
 - **S3 Staging** → **Glue ETL** → **S3 Data Warehouse** → **Glue Crawler** → **Athena Queries** → **QuickSight Dashboard**
 
